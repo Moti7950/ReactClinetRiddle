@@ -8,6 +8,7 @@ import App from "./App.tsx";
 import LiginPage from "./page/Ligin.Page.tsx"
 import SiginPage from "./page/sigin.Page.tsx"
 import Menu from "./page/Menu.page.tsx"
+import LeaderbordPage from "./page/Leaderbord.Page.tsx"
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
@@ -17,6 +18,7 @@ createRoot(document.getElementById("root")!).render(
         <Route path="/login" element={<LiginPage/>}/>
         <Route path="/sigin" element={<SiginPage/>}/>
         <Route path="/Menu" element={<Menu/>}/>
+        <Route path="/Leaderbord" element={<LeaderbordPage/>}/>
       </Routes>
     </BrowserRouter>
   </StrictMode>
