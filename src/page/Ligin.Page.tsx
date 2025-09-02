@@ -8,8 +8,8 @@ export default function LiginPage()
         <input id="userName-login" type="text" />
         <label htmlFor="passwordUser-login">Password</label>
         <input id="passwordUser-login" type="password" />
-        <Link to="/">Go to homepage</Link>
-        <Link to="/Menu">Go to Menu</Link>
+        <button><Link to="/">Go to homepage</Link></button>
+        <button><Link to="/Menu">Go to Menu</Link></button>
         </>
     )
 }
