@@ -10,6 +10,7 @@ export default function LiginPage()
         <input id="passwordUser-login" type="password" />
         <button><Link to="/">Go to homepage</Link></button>
         <button><Link to="/Menu">Go to Menu</Link></button>
+        <button><Link to="/AdminPage">If admin login</Link></button>
         </>
     )
 }
